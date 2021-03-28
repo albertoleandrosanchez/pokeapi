@@ -1,0 +1,29 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2em;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 4em;
+  background-color: #7ebcff;
+  z-index: 50;
+}
+
+.pokeHome {
+  height: 100%;
+}
+
+.Nav__arrow {
+  width: 3em;
+  height: auto;
+  cursor: pointer;
+}
+
+.right {
+  transform: rotate(90deg);
+}
+
+.left {
+  transform: rotate(-90deg);
+}

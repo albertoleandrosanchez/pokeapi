@@ -1,0 +1,13 @@
+.DisplayPokemons {
+}
+
+.listaPokemon {
+  /* background: linear-gradient(#e66465, #9198e5); */
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-image: url("https://i.pinimg.com/originals/ab/58/cc/ab58cc75dcb2e42555cf7e614216350a.jpg");
+  background-size: cover;
+  justify-content: space-evenly;
+}
