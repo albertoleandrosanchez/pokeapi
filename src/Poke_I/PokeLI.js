@@ -15,7 +15,6 @@ function PokeLI({id,name,img,color}) {
             setHover(false);
         }}
         onMouseLeave={()=>{
-           
             setHover(true)
         }
             

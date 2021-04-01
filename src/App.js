@@ -45,15 +45,14 @@ const fetchPokemons = async (rdata) => {
   
       <div className='App'>
       <Router>
-      <Nav
+      <Nav 
         
         handlePage={handlePage}
         nextPage={nextPage}
         prevPage={prevPage}
         toggleSpinner={toggleSpinner}
       /> 
-    
-        <Switch>
+      <Switch>  
           <Route exact path="/" >
             <DisplayPokemons 
             currentPage={currentPage}
@@ -64,7 +63,7 @@ const fetchPokemons = async (rdata) => {
             spinner={spinner}
             />
           </Route>
-          <Route path="/p/:id">
+          <Route exact path="/p/:id">
             <DisplayPokemon/>
           </Route>
          
