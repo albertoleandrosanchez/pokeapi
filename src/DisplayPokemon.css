@@ -51,11 +51,11 @@
 .pokemon__stat__titulo {
   margin: 0;
   width: 15em;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.2);
 }
 
 .pokemon__stat__number {
-  background-color: #bbbbbb;
+  background-color: #bbbbbb73;
   width: 20em;
   margin: 0;
 }
